@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.game-container{
+    text-align: center;
+    border-radius: 10px;
+}
+.choice {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.choice:hover{
+    background-color: chartreuse;
+}
+button :disabled {
+    background-color: white;
+    cursor: not-allowed;
+}
+#result {
+    font-weight:bold;
+    margin: 20px 0;
+}
+
+#resetButton{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
